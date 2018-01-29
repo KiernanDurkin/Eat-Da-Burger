@@ -1,3 +1,24 @@
-INSERT INTO burgers(burger_name,devoured) VALUES ('Cheeseburger', 0);
-INSERT INTO burgers(burger_name,devoured) VALUES ('Bacon Cheeseburger', 0);
-INSERT INTO burgers(burger_name,devoured) VALUES ('Chili Cheeseburger', 0);
+INSERT INTO burgers
+    (burger_name, devoured)
+VALUES
+    ('Double Bacon Cheeseburger', false);
+INSERT INTO burgers
+    (burger_name, devoured)
+VALUES
+    ('Triple-Stacked Avocado Burger', false);
+INSERT INTO burgers
+    (burger_name, devoured)
+VALUES
+    ('Cali-Chicken Cheeseburger', false);
+INSERT INTO burgers
+    (burger_name, devoured)
+VALUES
+    ('Southern Style Veggie Burger', true);
+INSERT INTO burgers
+    (burger_name, devoured)
+VALUES
+    ('Spicy Pepper Jack Mushroom Burger', true);
+INSERT INTO burgers
+    (burger_name, devoured)
+VALUES
+    ('Tequila Lime Burger', true);

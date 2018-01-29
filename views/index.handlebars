@@ -12,7 +12,11 @@
         <h2>Burgers to be DEVOURED!!!</h2>
 
         <ul>
-            {{#each burgers}} {{#unless devoured}} {{> burgers/burger-block devour=true}} {{/unless}} {{/each}}
+            {{#each burgers}} 
+            {{#unless devoured}} 
+            {{> burgers/burger-block devour=true}} 
+            {{/unless}} 
+            {{/each}}
         </ul>
 
     </div>
@@ -22,8 +26,13 @@
         <h2>Burgers that are devoured!</h2>
 
         <ul>
-            {{#each burgers}} {{#if devoured}} {{> burgers/burger-block devour=false}} {{/if}} {{/each}}
+            {{#each burgers}} 
+            {{#if devoured}} 
+            {{> burgers/burger-block devour=false}} 
+            {{/if}} 
+            {{/each}}
         </ul>
+
 
     </div>
 
@@ -34,7 +43,7 @@
 
     <div class="form-group">
         <label for="ca">Burger Name:</label>
-        <input type="text" id="ca" name="name">
+        <input type="text" id="ca" name="burger_name">
     </div>
     
 
